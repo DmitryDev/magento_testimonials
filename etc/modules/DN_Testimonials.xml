@@ -1,8 +1,0 @@
-<config>
-    <modules>
-        <DN_Testimonials>
-            <active>true</active>
-            <codePool>community</codePool>
-        </DN_Testimonials>
-    </modules>
-</config>
