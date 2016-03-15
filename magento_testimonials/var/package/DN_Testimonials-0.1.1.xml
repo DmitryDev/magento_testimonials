@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>DN_Testimonials</name>
+    <version>0.1.1</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Extension for adding testimonials</summary>
+    <description>Customers can write their testimonials for the site. After that admin can approve these testimonials via admin area and display these testimonials on front-end.</description>
+    <notes>This is a stable version.</notes>
+    <authors><author><name>Dmitry Nazarenko</name><user>DmitryNazarenko</user><email>nazarenko.dmitry@gmail.com</email></author></authors>
+    <date>2016-14-03</date>
+    <time>17:50:37</time>
+    <contents><target name="magecommunity"><dir name="DN"><dir name="Testimonials"><dir name="Block"><dir name="Adminhtml"><dir name="Testimonials"><dir name="Edit"><file name="Form.php" hash="a3e1bf67f8ba546d8d07d836cb8f42b7"/><dir name="Tab"><file name="Form.php" hash="9111bb1a98fc146acd14cfa744c5b63c"/></dir><file name="Tabs.php" hash="dbd372951e525dd1ed8556914169b1ab"/></dir><file name="Edit.php" hash="32d095012c9c19b6d92eeace37756096"/><file name="Grid.php" hash="681e862e84f8681cf088152886cb1993"/><dir name="Renderer"><file name="Status.php" hash="944a485d2adbc435c698ade45e6f267a"/></dir></dir><file name="Testonials.php" hash="be6dc760770acaecd79e65f8f87dbcf3"/></dir></dir><dir name="Helper"><file name="Data.php" hash="7fb9fedcc862511ce1e414ff5043f4fb"/></dir><dir name="Model"><file name="Testimonials.php" hash="d20b0c4d36ec2e0be83d88628f1584ce"/><dir name="Resource"><dir name="Testimonials"><file name="Collection.php" hash="a37211836cdfa647501b8387a0c56565"/></dir><file name="Testimonials.php" hash="efa5193207f2e98cec18f79aaddf3f54"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="TestimonialsController.php" hash="7d5e6b7ab78c2080a878e2b6671702bb"/></dir><file name="DetailController.php" hash="ce06c88d11c5826c18c2011f056702bd"/><file name="IndexController.php" hash="9c578cac46b3384408dabca19e27338b"/></dir><dir name="etc"><file name="adminhtml.xml" hash="69af512cf7a8ebef521a289d6370af67"/><file name="config.xml" hash="980527109ec795711f6f5e86670c986c"/></dir><dir name="sql"><dir name="testimonials_setup"><file name="mysql4-install-0.1.0.php" hash="5d444f920879f7bdd36dcb33d6679f73"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="StoreTestimonials.xml" hash="0146d803c3a866b70d9cc932ed9f002d"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="testimonials.xml" hash="7654b7c7df2f2d01dae5ec8e475d1831"/></dir><dir name="template"><dir name="testimonials"><file name="testimonials.phtml" hash="7f5b7da2ad5ed97ecae6cf6328732359"/><file name="detail.phtml" hash="1b3da6b12e2dcc243ba83ff23b4f6ddf"/><file name="form.phtml" hash="3b69f09ebb5c21316ba52158a23d5a99"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
